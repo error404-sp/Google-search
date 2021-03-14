@@ -1,0 +1,146 @@
+body{
+    background: #ecf0f3;
+}
+.flex{
+    border-radius: 30px;
+   display:flex;
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+    width: 50vw;
+    height: 7vw;
+    
+    border-radius: 50px;
+   background: #ecf0f3;
+    box-shadow:  14px 14px 29px #a3a6a8,
+             -14px -14px 29px #ffffff;
+           
+}
+.flex .icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    align-self: center;
+    justify-self: flex-start;
+    margin: 0 30px;
+}
+.flex form{
+    display:flex;
+    margin-right: 70px;
+}
+.flex form input{
+    border:black;
+    background: #ecf0f3;
+    color: black;
+    width: 25em;
+    height:40px;
+    position:relative;
+    justify-self: center;
+    align-self: center;
+    
+}
+input:focus {
+    outline-width: 0;
+}
+input::placeholder{
+    color:black;
+    font-size: large;
+
+}
+.flex .speech{
+    width: 30px;
+    height: 40px;
+    position: relative;
+    justify-self: flex-end;
+    align-self: center;
+
+    
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.icon-overlay{
+    width: 50px;
+    height: 50px;
+    background-color: #e2e6e9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0 10px;
+}
+.icon-overlay .icon1{
+    width: 20px;
+    height: 20px;
+    margin: 0 15px;
+  
+    
+}
+.person{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow:  11px 11px 22px #c6cacc,
+             -11px -11px 22px #ffffff;
+}
+.options{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 27vw;
+    left: 38vw;
+}
+
+
+@media(max-width:768px){
+    .flex{
+        width: 80vw;
+        height: 50px;
+        top: -200px;
+    }
+    .flex .icon{
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+        
+    }
+    .flex form input{
+        width: 50vw;
+        
+    }
+    input::placeholder{
+        font-size: small;
+    }
+    .flex .speech{
+        width: 15px;
+        height: 20px;
+        margin: 0 -60px;
+    }
+    .icon-overlay{
+        width: 40px;
+       height: 40px;
+       
+    }
+    .icon-overlay .icon1{
+     width: 15px;
+     height: 15px;
+     position:relative;
+     left: -3px;
+     
+     
+    }
+    .person{
+        width: 50px;
+        height: 50px;
+    }
+    .options{
+        top: 325px;
+        left: 15vw;
+    }
+
+
+
+}
