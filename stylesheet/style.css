@@ -96,6 +96,9 @@ nav{
 
 
 @media(max-width:768px){
+    body{
+        background:white;
+    }
     .flex{
         width: 80vw;
         height: 50px;
