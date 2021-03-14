@@ -43,7 +43,7 @@ input:focus {
     outline-width: 0;
 }
 input::placeholder{
-    color:black;
+   
     font-size: large;
 
 }
