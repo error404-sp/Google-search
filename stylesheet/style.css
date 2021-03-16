@@ -43,7 +43,7 @@ input:focus {
     outline-width: 0;
 }
 input::placeholder{
-    color:black;
+   
     font-size: large;
 
 }
@@ -96,6 +96,9 @@ nav{
 
 
 @media(max-width:768px){
+    body{
+        background:white;
+    }
     .flex{
         width: 80vw;
         height: 50px;
